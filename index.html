@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Filter Buttons -->
+        <div class="filter_buttons">
+            <button class="active" data-name="all">Show All</button>
+            <button data-name="kolkata">Kolkata</button>
+            <button data-name="mumbai">Mumbai</button>
+            <button data-name="delhi">Delhi</button>
+        </div>
+
+        <!-- Filterable Cards -->
+        <div class="filterable_cards">
+            <!-- Kolkata Images -->
+            <div class="card" data-name="kolkata">
+                <img src="Images/kolkata-1.jpeg" alt="Kolkata Image">
+                <div class="card_body">
+                    <h6 class="card_title">Kolkata</h6>
+                    <p class="card_text">Lorem ipsum dolor....</p>
+                </div>
+            </div>
+
+            <div class="card" data-name="kolkata">
+                <img src="Images/kolkata-2.jpeg" alt="Kolkata Image">
+                <div class="card_body">
+                    <h6 class="card_title">Kolkata</h6>
+                    <p class="card_text">Lorem ipsum dolor....</p>
+                </div>
+            </div>
+
+            <!-- Delhi Images -->
+            <div class="card" data-name="delhi">
+                <img src="Images/delhi-1.jpeg" alt="Delhi Image">
+                <div class="card_body">
+                    <h6 class="card_title">Delhi</h6>
+                    <p class="card_text">Lorem ipsum dolor....</p>
+                </div>
+            </div>
+
+            <div class="card" data-name="delhi">
+                <img src="Images/delhi-2.jpeg" alt="Delhi Image">
+                <div class="card_body">
+                    <h6 class="card_title">Delhi</h6>
+                    <p class="card_text">Lorem ipsum dolor....</p>
+                </div>
+            </div>
+
+            <!-- Mumbai Images -->
+            <div class="card" data-name="mumbai">
+                <img src="Images/mumbai-1.jpeg" alt="Mumbai Image">
+                <div class="card_body">
+                    <h6 class="card_title">Mumbai</h6>
+                    <p class="card_text">Lorem ipsum dolor....</p>
+                </div>
+            </div>
+
+            <div class="card" data-name="mumbai">
+                <img src="Images/mumbai-2.jpeg" alt="Mumbai Image">
+                <div class="card_body">
+                    <h6 class="card_title">Mumbai</h6>
+                    <p class="card_text">Lorem ipsum dolor....</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
